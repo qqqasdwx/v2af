@@ -1,0 +1,17 @@
+{
+	"debug": true,
+	"salt": "673179458@qq.com",
+	"showSql": true,
+    "http": {
+        "listen": "0.0.0.0:80",
+        "secret": "15822080463",
+        "access": "var/access.log"
+    },
+	"database": {
+		 "default": {
+            "addr": "root:asdasd273273@(bj-cdb-aclj4txa.sql.tencentcdb.com:63979)/v2af?charset=utf8&&loc=Asia%2FShanghai",
+            "idle": 5,
+            "max": 500
+        }
+	}
+}
